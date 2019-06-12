@@ -4,7 +4,7 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import io.vrenan.redditor.features.listnews.model.News
 
-class NewsItemViewHolder(val view: View): RecyclerView.ViewHolder(view) {
+class ItemNewsViewHolder(val view: View): RecyclerView.ViewHolder(view) {
     fun bindNews( news: News) {
 
     }
